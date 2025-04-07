@@ -7,13 +7,13 @@ int main(){
     printf("Informe o numeral de uma mes do ano: ");
     scanf("%d", &m);
 
-    if(m<4){
+    if((m==12 || (m<3))){
         printf("Verao");
-    }else if((m>=4) && (m <=6)){
+    }else if((m>=3) && (m <=5)){
         printf("Outono");
-    }else if((m>=7) && (m <=9)){
+    }else if((m>=6) && (m <=8)){
         printf("Inverno");
-    }else if(m<=12){
+    }else if((m>=9) && (m <=11)){
         printf("Primavera");
     }
 }
