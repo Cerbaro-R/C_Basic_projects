@@ -1,24 +1,26 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     float s, mf, f;
 
     printf("Digite o seu salario: ");
-scanf("%f", &s);
+    scanf("%f", &s);
 
-printf("Digite o valor que voce deseja financiar: ");
-scanf("%f", &f);
+    printf("Digite o valor que voce deseja financiar: ");
+    scanf("%f", &f);
 
-mf = s*5;
+    mf = s * 5;
 
-if(f<=mf){
-    printf("Financiamento concedido\n");
-}else{
-    printf("Financiamento negado\n");
+    if (f <= mf)
+    {
+        printf("Financiamento concedido\n");
+    }
+    else
+    {
+        printf("Financiamento negado\n");
+    }
+
+    printf("Obrigado por nos consultar");
 }
-
-printf("Obrigado por nos consultar");
-
-}
-
