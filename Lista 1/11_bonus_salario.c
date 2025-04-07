@@ -26,5 +26,5 @@ int main() {
         s = s + b;
     }
 
-    printf("Parabens %s, seu bonus e de %.2f então seu salário será de %.2f", name, b, s);
+    printf("Parabens %s, seu bonus e de %.2f entao seu salario sera de %.2f", name, b, s);
 }
