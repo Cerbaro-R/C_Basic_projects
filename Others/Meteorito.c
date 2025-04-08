@@ -19,7 +19,7 @@ int main(){
     m = 0;
     s = 's';
 
-    while (s == 's')
+    /*while (s == 's')
     {
         printf("informe a coordenada x do meteorito: ");
         scanf("%d", &mx);
@@ -31,6 +31,26 @@ int main(){
             m= m + 1;
         }else{
             printf("O meteorito nao caiu dentro da fazenda\n");
+        }
+
+        printf("Deseja informar outra coordenada? (s/n)");
+        scanf(" %c", &s);
+    }
+    */
+
+    while (s == 's')
+    {
+        printf("informe a coordenada x do meteorito: ");
+        scanf("%d", &mx);
+        printf("informe a coordenada y do meteorito: ");
+        scanf("%d", &my);
+
+        if((mx<x1) || (mx>x2) || (my<y1) || (my>y2)){
+            printf("O meteorito caiu fora da fazenda\n");
+        }else{
+            printf("O meteorito nao caiu fora da fazenda\n");
+            m= m + 1;
+
         }
 
         printf("Deseja informar outra coordenada? (s/n)");
