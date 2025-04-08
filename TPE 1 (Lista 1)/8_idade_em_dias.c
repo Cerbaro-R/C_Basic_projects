@@ -18,6 +18,6 @@ int main(){
     printf("Informe o dia atual:");
     scanf("%d", &da);
 
-    printf("Sua idade em dias eh: %d", (aa - an) * 365 + (ma - mn) * 30 + (da - dn));
+    printf("Sua idade em dias e: %d", (aa - an) * 365 + (ma - mn) * 30 + (da - dn));
 
 }
