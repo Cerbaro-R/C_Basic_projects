@@ -6,9 +6,13 @@ int main(){
 
     srand(time(NULL));
 
-    int v, c = 1000;
+    int jogar_novamente = 1, v, c;
 
-    v = (rand() % 100) + 1;
+    while(jogar_novamente == 1){
+
+        c = 0;
+        
+        v = (rand() % 100) + 1;
 
     while(c != v){
         printf("Digite um valor: ");
@@ -20,5 +24,11 @@ int main(){
         }else{
             printf("Parabens, voce acertou!");
         }
+    }
+
+    printf("Deseja jogar novamente? 1 - Sim | 0 - Nao\n");
+    scanf("%d", &jogar_novamente);
+    if(jogar_novamente == 1){
+    }
     }
 }
