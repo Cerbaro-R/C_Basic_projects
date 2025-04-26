@@ -18,9 +18,9 @@ int main(){
         printf("Digite um valor: ");
         scanf("%d", &c);
         if(c<v){
-            printf("O valor digitado é menor que o sorteado, tente novamente\n");
+            printf("O valor digitado e menor que o sorteado, tente novamente\n");
         }else if(c>v){
-            printf("O valor digitado é maior que o sorteado, tente novamente\n");
+            printf("O valor digitado e maior que o sorteado, tente novamente\n");
         }else{
             printf("Parabens, voce acertou!");
         }
