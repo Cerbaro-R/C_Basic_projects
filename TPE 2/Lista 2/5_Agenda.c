@@ -86,7 +86,7 @@ int main(){
         }else if(h==-1){
             printf("finalizando agenda");
         }else if((h<8)||(h>18)){
-            printf("Horario fora do expediente");
+            printf("Horario fora do expediente \n");
         }
             
     } 
