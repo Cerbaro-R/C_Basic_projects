@@ -3,8 +3,9 @@
 
 int main() {
 
-    int i=0, j;
+    int i=0, j, ganhador, pg=0;
     char v='s';
+    
 
     struct competidor
     {
@@ -23,12 +24,21 @@ int main() {
         scanf("%d", &competidor[i].p);
         getchar();
 
+        if(competidor[i].p>pg){
+            pg = competidor[i].p;
+            ganhador = i;        
+        }
+
         i++;
 
         printf("Deseja continuar? (s/n): ");
         scanf("%c", &v);
         getchar();
+
+
     }
+
+    printf("o ganhador foi %s com %d pontos! \n", competidor[ganhador].n, competidor[ganhador].p);
 
     for(j=0; j<i; j++){
         printf("Nome: %s | Pontuacao: %d \n", competidor[j].n, competidor[j].p);
