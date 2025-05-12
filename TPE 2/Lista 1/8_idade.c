@@ -2,9 +2,9 @@
 
 int main(){
 
-    int idade[12], crianca=0, adulto=0, idoso=0;
+    int idade[12], crianca=0, adulto=0, idoso=0, i;
 
-    for(int i=0; i<12; i++){
+    for(i=0; i<12; i++){
         printf("Informe a idade do %do paciente: ", i+1);
         scanf("%d", &idade[i]);
 

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int faltas[20], nenhuma=0, mais=0;
+    int faltas[20], nenhuma=0, mais=0, i;
 
-    for(int i=0; i<20; i++){
+    for(i=0; i<20; i++){
         printf("Informe o numero de faltas do %do aluno: ", i+1);
         scanf("%d", &faltas[i]);
 

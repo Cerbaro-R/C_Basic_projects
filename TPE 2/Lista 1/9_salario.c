@@ -3,9 +3,9 @@
 int main() {
     
     float salario[10], t;
-    int maior=0, menor=0;
+    int maior=0, menor=0, i;
 
-    for(int i=0; i<10; i++) {
+    for(i=0; i<10; i++) {
         printf("Informe o salario do %do funcionario: ", i+1);
         scanf("%f", &salario[i]);
 

@@ -2,9 +2,9 @@
 
 int main() {
 
-    int altura[15], baixa=0, alta=0;
+    int altura[15], baixa=0, alta=0, i;
 
-    for(int i=0; i<15; i++) {
+    for(i=0; i<15; i++) {
         printf("Informe a altura da %do pessoa em centimetros: ", i+1);
         scanf("%d", &altura[i]);
 
