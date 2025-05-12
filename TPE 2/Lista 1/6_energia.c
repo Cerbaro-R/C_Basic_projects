@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    printf("\nO total de consumo do período foi de %d kWh\n", total);
+    printf("\nO total de consumo do periodo foi de %d kWh\n", total);
     printf("O maior consumo foi de %d kWh\n", maior);
     printf("O menor consumo foi de %d kWh\n", menor);
     printf("Em %d dias o consumo foi acima de 300 kWh\n", n);
