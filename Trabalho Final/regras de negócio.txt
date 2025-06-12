@@ -1,0 +1,9 @@
+        sistema de tomada de decisão intelgente
+
+registrar horários possíveis
+registrar pessoas que participarão da reunião
+solicitar a disponibilidade de cada pessoa de acordo com os horários
+identificar qual horário todos as pessoas estão disponíveis
+se não acentecer em nenhum caso identificar qual o melhor horário possível
+imrpimir um relatório com os dados coletados
+imprimir qual(s) o(s) melhor(s) horários
